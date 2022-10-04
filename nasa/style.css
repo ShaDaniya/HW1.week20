@@ -1,0 +1,65 @@
+.mainpart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(152, 204, 244);
+}
+
+div#tekst_sverhu_kartinki {
+    position: relative;
+}
+
+.text_title {
+    position: absolute;
+    top: 10%;
+    left: 300px;
+    text-transform: uppercase;
+    color: white;
+    width: 350px;
+    background: #00000094;
+    padding: 10px;
+    text-align: center;
+    font: bold 24px/34px Helvetica, Sans-Serif;
+}
+
+.text_explanation {
+    position: absolute;
+    top: 30%;
+    left: 300px;
+    /* text-transform: uppercase; */
+    color: white;
+    width: 350px;
+    background: #00000094;
+    padding: 10px;
+    text-align: center;
+    font: 20px/24px Helvetica, Sans-Serif;
+
+}
+
+.text_copyright {
+    position: absolute;
+    top: 85%;
+    left: 300px;
+    text-transform: uppercase;
+    color: white;
+    width: 350px;
+    background: #340a0a94;
+    padding: 10px;
+    text-align: center;
+    font: bold 14px/20px Helvetica, Sans-Serif;
+
+}
+
+.text_date {
+    position: absolute;
+    top: 90%;
+    left: 300px;
+    text-transform: uppercase;
+    color: white;
+    width: 350px;
+    background: #340a0a94;
+    padding: 10px;
+    text-align: center;
+    font: bold 14px/20px Helvetica, Sans-Serif;
+
+}
