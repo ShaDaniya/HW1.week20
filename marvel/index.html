@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Супергерои Марвел</h1>
+    <div id="superheroesContainer">
+
+    </div>
+
+    <div class="superheroes_rating">
+        <h2>Оцени супергероя</h2>
+        <!-- Рейтинг для бетмена -->
+        <h3>Бэтмен</з>
+            <div class="rate_background" onclick="set_rateBatman(arguments[0], this);">
+                <div class="rate_bar" style="width:20%;"></div>
+            </div>
+            <div id="rateBatman" class="rate_color"></div>
+            <div>
+                <button onclick="BatRateLocalStorage()" class="star_btn">Оценить</button>
+            </div>
+
+            <!-- Рейтинг для супермена -->
+            <h3>Супермен</hз>
+                <div class="rate_background" onclick="set_rateSuperman(arguments[0], this);">
+                    <div class="rate_bar" style="width:20%;"></div>
+                </div>
+                <div id="rateSuperman" class="rate_color"></div>
+                <div>
+                    <button onclick="SupermanRateLocalStorage()" class="star_btn">Оценить</button>
+                </div>
+
+                <!-- Рейтинг для железного человека -->
+                <h3>Железный человек</hз>
+                    <div class="rate_background" onclick="set_rateIronman(arguments[0], this);">
+                        <div class="rate_bar" style="width:20%;"></div>
+                    </div>
+                    <div id="rateIronman" class="rate_color"></div>
+                    <div>
+                        <button onclick="IronmanRateLocalStorage()" class="star_btn">Оценить</button>
+                    </div>
+
+                    <!-- Рейтинг для человека-паука -->
+                    <h3>Человек-паук</hз>
+                        <div class="rate_background" onclick="set_rateSpiderman(arguments[0], this);">
+                            <div class="rate_bar" style="width:20%;"></div>
+                        </div>
+                        <div id="rateSpiderman" class="rate_color"></div>
+                        <div>
+                            <button onclick="SpidermanRateLocalStorage()" class="star_btn">Оценить</button>
+                        </div>
+
+                        <!-- Рейтинг для капитана америка -->
+                        <h3>Капитан Америка</hз>
+                            <div class="rate_background" onclick="set_rateCaptainAmerica(arguments[0], this);">
+                                <div class="rate_bar" style="width:20%;"></div>
+                            </div>
+                            <div id="rateCaptainAmerica" class="rate_color"></div>
+                            <div>
+                                <button onclick="CaptainAmericaRateLocalStorage()" class="star_btn">Оценить</button>
+                            </div>
+
+                            <!-- Рейтинг для тора -->
+                            <h3>Тор</hз>
+                                <div class="rate_background" onclick="set_rateTor(arguments[0], this);">
+                                    <div class="rate_bar" style="width:20%;"></div>
+                                </div>
+                                <div id="rateTor" class="rate_color"></div>
+                                <div>
+                                    <button onclick="TorRateLocalStorage()" class="star_btn">Оценить</button>
+                                </div>
+
+                                <!-- Рейтинг для халка -->
+                                <h3>Халк</hз>
+                                    <div class="rate_background" onclick="set_rateHulk(arguments[0], this);">
+                                        <div class="rate_bar" style="width:20%;"></div>
+                                    </div>
+                                    <div id="rateHulk" class="rate_color"></div>
+                                    <div>
+                                        <button onclick="HulkRateLocalStorage()" class="star_btn">Оценить</button>
+                                    </div>
+
+                                    <!-- Рейтинг для чудо-женщины -->
+                                    <h3>Чудо-женщина</hз>
+                                        <div class="rate_background" onclick="set_rateWonderWoman(arguments[0], this);">
+                                            <div class="rate_bar" style="width:20%;"></div>
+                                        </div>
+                                        <div id="rateWonderWoman" class="rate_color"></div>
+                                        <div>
+                                            <button onclick="WonderWomanRateLocalStorage()"
+                                                class="star_btn">Оценить</button>
+                                        </div>
+
+                                        <!-- Рейтинг для черной вдовы -->
+                                        <h3>Черная вдова</hз>
+                                            <div class="rate_background"
+                                                onclick="set_rateBlackWidow(arguments[0], this);">
+                                                <div class="rate_bar" style="width:20%;"></div>
+                                            </div>
+                                            <div id="rateBlackWidow" class="rate_color"></div>
+                                            <div>
+                                                <button onclick="BlackWidowRateLocalStorage()"
+                                                    class="star_btn">Оценить</button>
+                                            </div>
+
+                                            <!-- Рейтинг для дэдпула -->
+                                            <h3>Дэдпул</hз>
+                                                <div class="rate_background"
+                                                    onclick="set_rateDeadpool(arguments[0], this);">
+                                                    <div class="rate_bar" style="width:20%;"></div>
+                                                </div>
+                                                <div id="rateDeadpool" class="rate_color"></div>
+                                                <div>
+                                                    <button onclick="DeadpoolRateLocalStorage()"
+                                                        class="star_btn">Оценить</button>
+                                                </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.superhero {
+    padding: 20px;
+    padding-bottom: 35px;
+    border: 2px solid green;
+    border-radius: 10px;
+    text-align: center;
+    background-color: aqua;
+    margin: 10px;
+}
+
+#superheroesContainer {
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.rate_background {
+    position: relative;
+    width: 160px;
+    height: 32px;
+    background: url('star_gray.png') repeat-x;
+    cursor: pointer;
+}
+
+.rate_bar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 32px;
+    background: url('star_gold.png') repeat-x;
+}
+
+.superheroes_rating {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rate_color {
+    font-size: medium;
+    color: blue;
+}
+
+.star_btn {
+    background-color: rgb(159, 225, 203);
+    border-radius: 3px;
+    border-color: aliceblue;
+}
