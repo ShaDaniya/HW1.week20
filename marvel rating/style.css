@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.superhero {
+    padding: 20px;
+    padding-bottom: 35px;
+    border: 2px solid green;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(147, 240, 240);
+    margin: 10px;
+}
+
+#superheroesContainer {
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.subtitles {
+    font-weight: bold;
+}
